@@ -1,0 +1,17 @@
+name: Sync to Hugging Face
+on:
+  push:
+    branches: [main]
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Push to HF
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          # Replace with your actual HF username and space name
+          git push --force https://Co2fi-crs:$HF_TOKEN@huggingface.co/spaces/Co2fi-crs/ChatAI main
