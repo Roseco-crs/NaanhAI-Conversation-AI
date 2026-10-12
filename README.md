@@ -6,9 +6,8 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)]()
 
-**NaanhAI** (pronounced "nan-ai") is an advanced, conversation-oriented AI assistant built on open-source foundations. Unlike traditional "question-answer" bots, NaanhAI is engineered to be a **Thought Partner**—prioritizing context, natural human-like cadence, and intellectual honesty.
-
-Developed and maintained by **Co2fi-crs/Roseco-crs (Rodolphe Segbedji)**.
+**NaanhAI** (pronounced "nan-ai") is an LLM-powered AI assistant for NLP tasks, focusing on Question-answering, Translation, and summarizing. Indeed, it saves users time on writing prompts for daily translation and summarizing.
+Developed and maintained by **Coffi Rodolphe Segbedji)**.
 
 ---
 
@@ -24,10 +23,11 @@ Developed and maintained by **Co2fi-crs/Roseco-crs (Rodolphe Segbedji)**.
 
 ## 🛠 Tech Stack
 
-* **Core Model:** [Insert Model Name, e.g., Llama-3 / Kimi]
-* **Framework:** Python
-* **Inference:** [e.g., HuggingFace Transformers / LangChain / Groq]
-* **Orchestration:** [e.g., LangChain ]
+* **Core Model:** openai/gpt-oss-120b, 
+* **Back-end:** Python
+* **Inference:** LangChain-Groq, Groq
+* **Orchestration:** LangChain, LangGraph
+* **Front-end** Gradio
 
 ---
 
