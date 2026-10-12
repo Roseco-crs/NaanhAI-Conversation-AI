@@ -1,4 +1,3 @@
-# NaanhAI-Conversation-AI
 
 # NaanhAI 🤖
 
@@ -24,10 +23,11 @@ Developed and maintained by **Coffi Rodolphe Segbedji)**.
 ## 🛠 Tech Stack
 
 * **Core Model:** openai/gpt-oss-120b, 
-* **Back-end:** Python
+* **Back-end:** Python, LangChain
 * **Inference:** LangChain-Groq, Groq
 * **Orchestration:** LangChain, LangGraph
 * **Front-end** Gradio
+* **hosting** HuggingFace
 
 ---
 
